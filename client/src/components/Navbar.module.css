@@ -1,0 +1,19 @@
+.nav {
+  background: var(--bg-header);
+  height: 48px;
+  border-bottom: 2px solid var(--blue);
+}
+.inner {
+  max-width: 1100px; margin: 0 auto; padding: 0 20px;
+  height: 100%; display: flex; align-items: center; justify-content: space-between;
+}
+.logo {
+  display: flex; align-items: center; gap: 6px;
+  font-size: 1.1rem; color: #fff; text-decoration: none; font-weight: 700;
+}
+.logo:hover { text-decoration: none; color: #fff; }
+.logoIcon { font-size: 1.1rem; }
+.links { display: flex; align-items: center; gap: 14px; }
+.link { color: rgba(255,255,255,0.75); font-size: 0.9rem; font-weight: 500; }
+.link:hover { color: #fff; text-decoration: none; }
+.user { color: #90caf9; font-size: 0.85rem; font-weight: 600; }
